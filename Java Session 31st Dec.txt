@@ -1,0 +1,46 @@
+-FileWriter
+	.txt
+	
+	Filewriter f  =new FileWriter(path,optional(true/false)) 
+		false : overwrite 
+		true : append
+		
+	BufferedWrtier 
+
+-Excel Reader:
+		-download the apache poi : jar file
+		http://www.java2s.com/Code/Jar/p/Downloadpoi39jar.htm
+		-add jar to the project
+		Right click on project -> go to properties -> go to java and build path
+		-> go to librraries -> click on add external jars -> browser the files 
+		-> and click on Apply and Close 
+		
+		
+		
+-JDBC Connection 
+	java database connectivity
+
+jdbc driver 
+http://www.java2s.com/Code/Jar/m/Downloadmysqlconnectorjar.htm
+
+
+
+My SQL Server:
+---------------------
+	type of serer: mysql
+	ip address/server name: localhost
+	database : 
+	user:root
+	pwd:root
+	
+Java code:
+---
+	import java.mysql.DriverManager   : register or  load driver 
+	import java.mysql.Connetion	: establish the connection 
+	import java.mysql.Preparestatement : create/prepate sql statement
+	import java.mysql.ResultSet	 : hold the sql result 
+
+
+
+
+
